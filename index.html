@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Identification</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Plant Prober</h1>
+    </div>
+    <div class="container">
+        <button onclick="snd.play()" class='button'> Click for Info About Tree</button>
+
+        <script>
+            var snd = new Audio("audio.mp3"); 
+        </script>
+    </div>
+    <div class="container">
+        <a href="https://www.britannica.com/plant/coconut-palm" target="_blank" rel="noreferrer noopener"><button class="button"> Info from britannica </button></a>
+        <a href="https://en.wikipedia.org/wiki/Coconut" target="_blank" rel="noreferrer noopener"><button class="button"> Info from wiki </button></a>
+    </div>
+    <div class='container'>
+        <img src='https://www.cincinnatiport.org/wp-content/uploads/Blue-Ash-Logo.png' class='img'>
+    </div>
+    <div class='bottom'>
+        <p>Created By Siddharth Vikram - Troop 674</p>
+    </div>
+</body>
+<style>
+    body {
+        background-image: url('img.jpg');
+        font-size: 100%;
+    }
+    .button {
+        background-color: #9dad7f;
+        color: #374147;
+        border-color: #004e64;
+        padding: 1% 2%;
+        text-align: center;
+        font-size: 115%;
+    }
+    .container {
+        padding-top: 4%;
+        padding-right: 4%;
+        padding-left: 4%;
+        padding-bottom: 4%;
+        text-align: center;
+        position: relative;
+    }
+    .heading {
+        text-overflow: overflow; 
+        overflow: hidden;
+        color: #171219;
+        border: 5% solid transparent;
+        padding: 4%;
+        border-image-source: url(border.png);
+        border-image-repeat: round;
+        border-image-slice: 30;
+        background-color: #7a8e7a;
+    }
+    .img {
+        height: 75%;
+        width: 75%;
+    }
+    .bottom {
+        text-align: center;
+        padding-top: 40%;
+        color: #576f75;
+    }
+</style>
+</html>
