@@ -1,0 +1,117 @@
+body {
+    background-color: #e0f7fa;  /* Soft pastel blue background */
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #37474f;  /* Dark gray for readable text */
+}
+
+.container {
+    padding: 3%;
+    text-align: center;
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgba(178, 223, 219, 0.9);  /* Light teal with stronger transparency */
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  /* Stronger shadow for depth */
+    border: 1px solid rgba(0, 0, 0, 0.1);  /* Light border for separation */
+}
+
+.heading {
+    color: #ffffff;
+    background: linear-gradient(135deg, #00695c, #004d40);  /* Gradient for headings */
+    font-size: 2.3em;
+    font-weight: bold;
+    padding: 1.5% 3%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #ff7043;  /* Burnt orange buttons */
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 1.15em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.button:hover {
+    background-color: #d84315;  /* Darker burnt orange on hover */
+    color: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.button:active {
+    background-color: #bf360c;
+    color: #ffffff;
+}
+
+.img {
+    height: auto;
+    width: 100%;
+    max-width: 60%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.bottom {
+    text-align: center;
+    padding-top: 20%;
+    color: #37474f;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#sec {
+    display: none;
+    background-color: #ff8a65;  /* Rich coral accent for content reveal */
+    text-align: center;
+    padding: 4%;
+    color: #ffffff;
+    font-size: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #00695c;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff7043;
+}
+
+/* Mobile Optimization */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 5%;
+    }
+
+    .heading {
+        font-size: 2em;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px 30px;
+    }
+
+    .img {
+        width: 100%;
+    }
+}
