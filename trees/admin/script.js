@@ -28,6 +28,9 @@ var teight = new Audio("../audio/tulip_tree.mp3");
 var tnine = new Audio("../audio/white_ash.mp3");
 var thirty = new Audio("../audio/eastern_beech.mp3");
 var thone = new Audio("../audio/shumard_oak.mp3");
+var thtwo = new Audio("../audio/american_sycamore.mp3");
+var ththree = new Audio("../audio/chinkapin_oak.mp3");
+var thfour = new Audio("../audio/yellow_buckeye.mp3");
 
 function showDiv() {
     let d = document.getElementById('sec');
